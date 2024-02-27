@@ -24,6 +24,8 @@ The task is registered by the user, then executed by the target service and ends
 The interaction between users and services follows a defined algorithm:
 
 1. Users register an account through the auth service.
+Registration is not publicly available. If you need to implement it, please contact us via the [feedback form](https://data2data.ru/suggestions/).
+
 2. Users obtain a token from the auth service for accessing other services.
 3. Users register the task in the uploads service.
 4. The uploads service checks the service parameters, creates a task and awaits for user files.
